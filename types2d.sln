@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example", "example\example.vcxproj", "{4D250E6D-A2EB-42CB-A354-B79E47E864CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{0B737C97-E7DB-4DA2-9AE3-499943CF7601}"
+	ProjectSection(SolutionItems) = preProject
+		color.h = color.h
+		corner_radius.h = corner_radius.h
+		html_colors.h = html_colors.h
+		padding.h = padding.h
+		point.h = point.h
+		rectangle.h = rectangle.h
+		size.h = size.h
+		types2d.h = types2d.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Debug|x64.ActiveCfg = Debug|x64
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Debug|x64.Build.0 = Debug|x64
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Debug|x86.Build.0 = Debug|Win32
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Release|x64.ActiveCfg = Release|x64
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Release|x64.Build.0 = Release|x64
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Release|x86.ActiveCfg = Release|Win32
+		{4D250E6D-A2EB-42CB-A354-B79E47E864CC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7D870EE-D6E4-44C9-9BF2-E1B6B8302E6D}
+	EndGlobalSection
+EndGlobal
